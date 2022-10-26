@@ -56,8 +56,8 @@ Example:
 
 ```json
 {
-  "status": 401,
-  "message": "Invalid Credentials"
+  "status": 103,
+  "message": "Missing name"
 }
 ```
 
@@ -177,14 +177,29 @@ Example:
 </tr>
 <tr>
 <td>400</td>
-<td>Emiited when there is the error inside the data or the request fail
+<td>Emiited when there is the error inside the data
 
 Example:
 
 ```json
 {
   "status": 103,
-  "message": "Last name is required"
+  "message": "Email required"
+}
+```
+
+</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Emiited when authentication failed
+
+Example:
+
+```json
+{
+  "status": 301,
+  "message": "Authentication failed"
 }
 ```
 

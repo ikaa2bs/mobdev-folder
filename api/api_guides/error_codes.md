@@ -35,12 +35,13 @@ The steps required to allocate a new error code is as below:
 | 201  | Invalid verification code |
 | 202  | Invalid CSRF token        |
 | 203  | Invalid access token      |
+| 204  | Rate limit exceeded       |
 
 ## **3xx Error Codes**
 
 | Code | Meaning               |
 | ---- | --------------------- |
-| 401  | Authentication Failed |
+| 301  | Authentication Failed |
 
 ## **4xx Error Codes**
 
