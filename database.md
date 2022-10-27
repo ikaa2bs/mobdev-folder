@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS premier.user_details
     pwd text COLLATE pg_catalog."default",
     tel_no bigint,
     address text COLLATE pg_catalog."default",
+    first_join timestamp without time zone,
     CONSTRAINT user_details_pkey PRIMARY KEY (loginid)
 )
 TABLESPACE pg_default;
@@ -111,6 +112,7 @@ CREATE TABLE IF NOT EXISTS premier.order_details
     orderid bigint NOT NULL,
     productid bigint NOT NULL,
     quantity integer,
+    CONSTRAINT order_details_pkey PRIMARY KEY (orderid, productid),
     CONSTRAINT order_details_orderid_fkey FOREIGN KEY (orderid)
         REFERENCES premier.orders (orderid) MATCH SIMPLE
         ON UPDATE NO ACTION
@@ -120,7 +122,9 @@ CREATE TABLE IF NOT EXISTS premier.order_details
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 )
+
 TABLESPACE pg_default;
+
 ALTER TABLE IF EXISTS premier.order_details
     OWNER to postgres;
 ```
