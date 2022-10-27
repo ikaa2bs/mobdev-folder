@@ -27,6 +27,7 @@ The steps required to allocate a new error code is as below:
 | 101  | Invalid email address is provided to the system |
 | 102  | The product id given is not exists              |
 | 103  | Required fields is missing                      |
+| 104  | The order id given is not exists                |
 
 ## **2xx Error Codes**
 

@@ -1,6 +1,6 @@
 # Authentication API
 
-This page contain the information about the authentication endpoints. The base URL for this API is `/api/auth`. All the APIs in this section is _CSRF protected_.
+This page contain the information about the authentication endpoints. The base URL for this API is `/api/v1/auth`. All the APIs in this section is _CSRF protected_.
 
 ## Registration API
 
