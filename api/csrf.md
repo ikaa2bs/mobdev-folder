@@ -1,6 +1,6 @@
 # CSRF API
 
-This page contain the information about the CSRF endpoints. These endpoint can be used with or without the authentication. The base URL for this API is `/api/token`
+This page contain the information about the CSRF endpoints. These endpoint can be used with or without the authentication. The base URL for this API is `/api/v1/token`
 
 <table>
 <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>

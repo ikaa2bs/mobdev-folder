@@ -1,6 +1,6 @@
 # Products API
 
-This page contain the information about the readonly products endpoints. These endpoint can be used without the authentication. The base URL for this API is `/api/products`
+This page contain the information about the readonly products endpoints. These endpoint can be used without the authentication. The base URL for this API is `/api/v1/products`
 
 ## General guideline
 

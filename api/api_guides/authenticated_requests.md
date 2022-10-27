@@ -4,7 +4,7 @@ This document describes the guideline in sending the authenticated request
 
 ## Obtaining the access token
 
-To obtain an access token, issue a call to the `/api/auth/login` and you will get the access token in the `token` field in the response.
+To obtain an access token, issue a call to the `/api/v1/auth/login` and you will get the access token in the `token` field in the response.
 
 ## Validaty
 
@@ -24,4 +24,4 @@ Content-Type: application/json; charset=utf8
 
 ## Revoking the token
 
-It is advised to revoke the token when you know it will be never be used again by making an authenticated call to the `/api/auth/revoke` endpoint
+It is advised to revoke the token when you know it will be never be used again by making an authenticated call to the `/api/v1/auth/revoke` endpoint
