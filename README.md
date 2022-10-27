@@ -1,4 +1,4 @@
-# Merch
+# Merch Paradise
 
 Welcome to the meta repository for the Merch project. This repository will contain the information which required for the entire team.
 Please dont leak the content of this repository. It is definitely confidential.

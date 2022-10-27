@@ -28,15 +28,18 @@ The steps required to allocate a new error code is as below:
 | 102  | The product id given is not exists              |
 | 103  | Required fields is missing                      |
 | 104  | The order id given is not exists                |
+| 105  | Password do not match                           |
 
 ## **2xx Error Codes**
 
-| Code | Meaning                   |
-| ---- | ------------------------- |
-| 201  | Invalid verification code |
-| 202  | Invalid CSRF token        |
-| 203  | Invalid access token      |
-| 204  | Rate limit exceeded       |
+| Code | Meaning                    |
+| ---- | -------------------------- |
+| 201  | Invalid verification code  |
+| 202  | Invalid CSRF token         |
+| 203  | Invalid access token       |
+| 204  | Rate limit exceeded        |
+| 205  | Cannot checkout empty cart |
+| 206  | Field is immutable         |
 
 ## **3xx Error Codes**
 
