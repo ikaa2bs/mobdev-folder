@@ -88,6 +88,7 @@ Payload:
   "last_name": "Last Name",
   "username": "username",
   "password": "password",
+  "password_again": "same pass",
   "address": "<optional>",
   "telephone_number": "<optional>"
 }

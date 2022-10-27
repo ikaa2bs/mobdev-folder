@@ -36,7 +36,7 @@ Example:
 </tr>
 <tr>
 <td>403</td>
-<td>Emiited when the request fail
+<td>Emited when the request fail
 
 Example:
 
