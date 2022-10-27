@@ -100,7 +100,8 @@ Example:
     {
       "product": "id",
       "product_name": "",
-      "quantity": 200
+      "quantity": 200,
+      "image": ""
     }
   ],
   "total_value": 10000,
@@ -260,14 +261,14 @@ Example:
 </tr>
 <tr>
 <td>404</td>
-<td>The order is not found
+<td>The product id is not found
 
 Example:
 
 ```json
 {
   "status": 102,
-  "message": "The product it does not exists"
+  "message": "The product id does not exists"
 }
 ```
 
@@ -317,6 +318,75 @@ Example:
 {
   "status": 203,
   "message": "Invalid access token"
+}
+```
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+
+`POST`
+
+</td><td>
+
+`/cart/populate`
+
+</td>
+<td>
+
+**Populate the cart with the content of the order**  
+Payload:
+
+```json
+{
+  "orderid": 2
+}
+```
+
+Response:
+
+<table>
+<tr><th>HTTP Status</th><th>Description</th></tr>
+<tr><td>200</td><td>
+Emitted when the request is succeeded. Returns the current cart content
+
+Example:
+
+```json
+[]
+```
+
+</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized request (missing or invalid Access Token)
+
+Example:
+
+```json
+{
+  "status": 203,
+  "message": "Invalid access token"
+}
+```
+
+</td>
+</tr>
+<tr>
+<td>404</td>
+<td>The product id is not found
+
+Example:
+
+```json
+{
+  "status": 104,
+  "message": "The order id does not exists"
 }
 ```
 

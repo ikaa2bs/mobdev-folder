@@ -10,9 +10,14 @@ This page contain the information about the readonly products endpoints. These e
   "name": "name",
   "stock": 235,
   "price": 1200, //fixed point decimal
-  "category": "A"
+  "category": "A",
+  "image": ""
 }
 ```
+
+## Randomization of output
+
+You can randomize the order of the output by adding `/?rng=1` to the url. This might not work properly with pagination. It also not work with the searching `?q=`
 
 ## Endpoints
 
