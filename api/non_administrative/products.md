@@ -80,6 +80,33 @@ When the category does not exists
 </table>
 </td>
 </tr>
+<tr>
+<td>
+
+`GET`
+
+</td><td>
+
+`/categories`</td><td>To obtain all of the categories
+
+Response:
+
+<table>
+<tr><th>HTTP Status</th><th>Description</th></tr>
+<tr><td>200</td><td>
+When the request succeeded
+
+Response:
+
+```jsonc
+[] //list of categories in array
+```
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
 
 </tbody>
 </table>
